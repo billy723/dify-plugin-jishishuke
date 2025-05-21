@@ -1,30 +1,31 @@
-## Jishishuke Api Toolbox
+## Jishishuke API Toolbox
 
-**Author:** jishishuke
-**Version:** 0.0.1
-**Type:** tool
-
-
-### 关于我们
-郑州极识数字科技有限公司是一家集地理空间、网络空间和实体空间于一体的地址类数据服务商。针对于Dify平台，我们提供了一些工具插件来调用我们API服务，进而为您的AI工作流提供更多功能。
+**Author:** [guhx](https://github.com/billy723/dify-plugin-jishishuke)  
+**Version:** 0.0.1  
+**Type:** Tool
 
 ---
 
-### 功能特性
-* **Ipv4 Location Query - City** — Ipv4地址归属地查询，城市级精度。[字段说明](https://api.jishishuke.com/doc/44)
-* **Ipv6 Location Query - City** — Ipv6地址归属地查询，城市级精度。[字段说明](https://api.jishishuke.com/doc/45)
+### About Us
+Zhengzhou Jishi Digital Technology Co., Ltd. is a data service provider specializing in address-related data, integrating geospatial, cyberspace, and physical space. For the Dify platform, we provide tool plugins to call our API services, offering more features for your AI workflows.
 
 ---
 
-### 🛠️使用说明
-1. 在 [极识数科API接口商城](https://api.jishishuke.com/) 完成注册
-2. 注册后登录，在用户控制台-密钥管理，生成并拷贝您的 API 密钥
-3. 在 Dify 平台的插件管理中，添加插件，并填入密钥key与查询参数；
-4. 执行查询，继续您的下一步流程。
+### Features
+* **Ipv4 Location Query - City** — Query the location of an IPv4 address with city-level accuracy. [Field Description](https://api.jishishuke.com/doc/44)
+* **Ipv6 Location Query - City** — Query the location of an IPv6 address with city-level accuracy. [Field Description](https://api.jishishuke.com/doc/45)
 
 ---
 
-### 使用示例
+### 🛠️Instructions for Use
+1. Register at the [JishiShuke API Marketplace](https://api.jishishuke.com/)
+2. After registration, log in and go to User Console - Key Management to generate and copy your API key
+3. In the Dify platform's plugin management, add the plugin and enter your key and query parameters
+4. Execute the query and continue your workflow
+
+---
+
+### Usage Examples
 #### 📍 Ipv4 Location Query - City
 ![](_assets/v4city_1.png)
 ```json
@@ -81,3 +82,7 @@
     "msg": "操作成功"
 }
 ```
+
+**Contact:**
+
+If you have any questions about this plugin, please contact the author or create an issue: [guhx](https://github.com/billy723/dify-plugin-jishishuke/issues). For questions about JishiShuke itself, please refer to https://api.jishishuke.com

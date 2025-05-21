@@ -1,28 +1,26 @@
-## 极识数科API工具插件隐私政策
+## JishiShuke API Tool Plugin Privacy Policy
 
-该工具插件作为客户端，用于向极识数科API接口商城发送API请求。
+This tool plugin acts as a client to send API requests to the JishiShuke API Marketplace.
 
-**数据收集：**
+**Data Collection:**
 
-为了插件功能的正常运行，此工具插件需要用户在 Dify 平台试用过程中提供API调用凭证，后续称之为key，key由极识数科API接口商城（api.jishishuke.com）统一管理。
-* `key`：用于验证身份的 API 访问密钥。
+For the normal operation of the plugin, users are required to provide an API access credential (hereinafter referred to as "key") during the trial process on the Dify platform. The key is uniformly managed by the JishiShuke API Marketplace (api.jishishuke.com).
+* `key`: An API access key used for identity verification.
 
-在使用插件工具时，可能会处理并发送以下数据到聚合数据：
+When using the plugin, the following data may be processed and sent to JishiShuke:
 
-* 用户需要查询的字段值，例如ip地址。
+* Field values that users need to query, such as IP addresses.
 
+**Data Usage:**
 
-**数据使用：**
+* The collected key (`key`) is only used for API requests to the JishiShuke API Marketplace.
+* The user’s query field values are sent directly to the JishiShuke API Marketplace via API.
+* The plugin itself does not persistently store any user data or credentials outside the runtime context. All data is only transmitted via API during request execution.
 
-* 收集的密钥（`key`）仅用于极识数科API接口商城的接口请求。
-* 用户查询字段值会直接通过 API 发送到极识数科API接口商城。
-* 插件本身不会在运行上下文之外持久存储任何用户数据或凭证。所有数据都仅用于执行请求时通过 API 传输。
+**Third-party Services / Self-hosted:**
 
-**第三方服务 / 自建托管：**
+* [JishiShuke API Marketplace Privacy Policy](https://api.jishishuke.com/agreement/privacy).
 
-* [极识数科API接口商城的隐私政策](https://api.jishishuke.com/agreement/privacy)。
+**Contact Information:**
 
-
-**联系方式：**
-
-关于 极识数科API接口商城 本身的相关问题，请参考 https://api.jishishuke.com/。
+For issues related to the JishiShuke API Marketplace itself, please refer to https://api.jishishuke.com/.
